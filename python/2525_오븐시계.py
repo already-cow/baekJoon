@@ -10,3 +10,4 @@ if min+set >= 60:
         print(hour+a,b)
 else:
     print(hour, min+set)
+
