@@ -1,9 +1,8 @@
 a = int(input())
-b = input()
-list = []
+b = list(input())
+sum = 0
 
-for i in range(0, a):
-    list.append(int(b[i]))
+for i in range(0,a):
+    sum += int(b[i])
 
-b = sum(list)
-print(b)
+print(sum)
