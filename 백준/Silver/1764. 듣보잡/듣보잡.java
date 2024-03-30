@@ -16,7 +16,6 @@ public class Main {
 
         int sum = 0;
         List<String> list = new ArrayList<>();
-        StringBuilder sb = new StringBuilder();
         for (int i = 0; i < m; i++) {
             String str = br.readLine();
             if (map.contains(str)) {
