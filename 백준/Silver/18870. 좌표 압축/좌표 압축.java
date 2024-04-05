@@ -6,7 +6,7 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
         int[] arr = new int[n];
-        HashSet<Integer> map = new HashSet<>();
+        TreeSet<Integer> map = new TreeSet<>();
 
         String[] str = br.readLine().split(" ");
         for (int i = 0; i < n; i++) {
@@ -20,8 +20,6 @@ public class Main {
         for (int num : map) {
             sortedarr[idx++] = num;
         }
-
-        Arrays.sort(sortedarr);
 
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < n; i++) {
